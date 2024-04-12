@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resizable Map</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="sidebar">
+      <button id="toggleButton" onclick="toggleSidebar()">
+        Toggle Sidebar
+      </button>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+    <div id="mapContainer">
+      <div id="map"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
